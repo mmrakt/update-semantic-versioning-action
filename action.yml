@@ -1,0 +1,14 @@
+name: "update-semantic-versioning-action"
+description: "Update semantic versioning action"
+inputs:
+  layer:
+    description: "semver layer"
+    required: true
+    default: "patch"
+  version:
+    description: "previous version"
+    required: true
+    default: "0.1.0"
+runs:
+  using: "node16"
+  main: "dist/index.js"
