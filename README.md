@@ -19,7 +19,7 @@ Github Actions for update semantic versioning.
 
 which layer of semantic versioning.
 
-e.g. `"major" | "minor" | "pach"`
+e.g. `"major" | "minor" | "patch"`
 
 ### version
 
